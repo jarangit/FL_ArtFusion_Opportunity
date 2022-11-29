@@ -19,7 +19,7 @@ function App() {
   const navigate = useNavigate();
   const goToPosts = () => {
     navigate({
-      pathname: '/form',
+      pathname: 'https://trk.opploansnmyoffer.com/click',
       search: `apply?manual=1&=&requested_amount=${dataForm.amount}&email=${dataForm.email}&last4ssn=${dataForm.ssn}`,
     });
     window.location.reload();

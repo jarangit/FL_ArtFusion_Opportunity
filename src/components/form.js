@@ -45,19 +45,21 @@ const FormLoan = ({ onChangeDataForm, goToPosts, dataForm }) => {
             <span className='text-sm absolute top-2 left-3 font-bold z-10 uppercase text-blue-xDark'>
               YOUR EMAIL ADDRESS
             </span>
-            <input type="email" placeholder='Enter your email' name="email" className='w-full bg-white pt-5' value={dataForm.email}/>
+            <input type="email" placeholder='Enter your email' name="email" className='w-full bg-white pt-5' value={dataForm.email} />
           </div>
           <div className='border p-3 rounded-md border-blue-light relative  h-[70px] bg-white w-full'>
             <span className='text-sm absolute top-2 left-3 font-bold z-10 uppercase text-blue-xDark'>
               Last 4 digits of SSN
             </span>
-            <input type="password" className='w-full bg-white pt-5' name="ssn" maxLength={4} placeholder='&#9679;&#9679;&#9679;&#9679;' value={dataForm.ssn}/>
+            <input type="password" className='w-full bg-white pt-5' name="ssn" maxLength={4} placeholder='&#9679;&#9679;&#9679;&#9679;' value={dataForm.ssn} />
           </div>
         </div>
 
-        <button onClick={goToPosts} className='button uppercase text-white w-full rounded-md h-[80px] font-bold text-xl'>
-          Get Started
-        </button>
+        <a href='/form'>
+          <div className='button uppercase text-white w-full rounded-md h-[80px] font-bold text-xl flex items-center justify-center'>
+            Get Started
+          </div>
+        </a>
       </div>
     </form>
   )
