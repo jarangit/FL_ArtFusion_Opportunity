@@ -55,7 +55,7 @@ const FormLoan = ({ onChangeDataForm, goToPosts, dataForm }) => {
           </div>
         </div>
 
-        <a href='/form'>
+        <a href="/form-loan">
           <div className='button uppercase text-white w-full rounded-md h-[80px] font-bold text-xl flex items-center justify-center'>
             Get Started
           </div>
