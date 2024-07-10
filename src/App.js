@@ -43,11 +43,13 @@ function App() {
       <Banner />
       <div className='absolute w-full top-0 z-50'>
         <Menu />
-        <div className=' myContainer grid grid-cols-1 lg:grid-cols-2 !pt-36 lg:!pt-1'>
+        <div className=' myContainer grid grid-cols-1 lg:grid-cols-2 lg:!pt-36 !pt-1'>
           <div></div>
           <div>
-            <div className='text-2xl lg:text-[2.875rem] leading-[1.5] font-black text-center w-[75%] mx-auto mb-6'>
-              Get Your Personal Loan Up To $5000
+            <div className='flex justify-end w-full  lg:justify-center my-3'>
+              <div className='text-3xl lg:text-[2.875rem] leading-[1.5] font-black lg:text-center w-[45%] lg:w-full text-right'>
+                Get Your Personal Loan Up To $5000
+              </div>
             </div>
             <div>
               <FormLoan
