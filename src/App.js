@@ -47,7 +47,7 @@ function App() {
           <div></div>
           <div>
             <div className='flex justify-end w-full  lg:justify-center my-3'>
-              <div className='text-3xl lg:text-[2.875rem] leading-[1.5] font-black lg:text-center w-[45%] lg:w-full text-right'>
+              <div className='text-2xl lg:text-[2.875rem] leading-[1.5] font-black lg:text-center w-[60%] lg:w-full text-right'>
                 Get Your Personal Loan Up To $5000
               </div>
             </div>

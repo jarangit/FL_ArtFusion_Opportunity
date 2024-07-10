@@ -50,6 +50,7 @@ body {
   transition: all 0.25s ease-in-out;
 }
 .myBanner {
+  padding-top:30px;
   overflow: hidden;
   position: absolute;
   top: 0;
