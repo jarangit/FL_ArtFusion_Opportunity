@@ -45,7 +45,7 @@ function App() {
         <Menu />
         <div className=' myContainer grid grid-cols-1 lg:grid-cols-2 lg:!pt-36 !pt-1'>
           <div></div>
-          <div className='flex flex-col gap-12'>
+          <div className='flex flex-col gap-20'>
             <div className='flex justify-end w-full  lg:justify-center my-3'>
               <div className='text-2xl lg:text-[2.875rem] leading-[1.5] font-black lg:text-center w-[60%] lg:w-full text-right'>
                 Get Your Personal Loan Up To $5000
