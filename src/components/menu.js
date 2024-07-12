@@ -11,7 +11,7 @@ const Menu = () => {
           <div className='text-xs lg:text-2xl text-blue-dark font-bold'>Opportunity-Loan</div>
         </div>
         <div>
-          <Button text="Get Start" />
+          {/* <Button text="Get Start" /> */}
         </div>
       </div>
     </div>
